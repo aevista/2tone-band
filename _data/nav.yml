@@ -1,0 +1,8 @@
+# nav items in header
+items:
+  - text: 'Photos'
+    path: '/photos'
+  - text: 'Videos'
+    path: '/videos'
+  - text: 'Calendar'
+    path: '/calendar'

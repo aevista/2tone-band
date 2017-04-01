@@ -1,0 +1,18 @@
+<div id="header">
+  <h1>
+    <i class="fa fa-music"></i>
+
+
+    <a id="sitename" href="{{site.baseurl}}/">{{ site.title }}</a>
+  </h1>
+
+  <!-- Add something about you in p tag-->
+  <p>{{ site.header }}</p>
+  <hr/>
+
+  <span class="credits left">
+    {% for item in site.data.nav.items %}
+      <a href="{{ item.path | prepend:site.baseurl }}">{{item.text}}</a> {% unless forloop.last %} | {% endunless %}
+    {% endfor %}
+  </span>
+</div>

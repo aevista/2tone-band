@@ -1,0 +1,60 @@
+baseurl: "/2toneband" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "aevista.github.io" # the base hostname & protocol for your site.
+title: "2 Tone Band"
+
+paginate: 6 #articles per page
+paginate_path: /blog/page:num #makes pagination working
+
+# header text
+header: | 
+        From Beatles  to ZZ Top, a bit of Jazz, 
+        Blues and plenty of Adventure mixed in.
+
+# contacts
+git: "https://github.com/railsr"  #your github url here.
+stackoverflow: "http://stackoverflow.com/users/1231365/railsr" #Add your stackoverflow url here.
+twitter: "https://twitter.com/railsr7"  #Add your twitter url here.
+
+# for welcome page
+# to replace image go to index.html
+email:
+  address: "2toneband@gmail.com"
+  text: "2toneband@gmail.com"
+
+# disqus comment
+disqus:
+    shortname: "test" #your disqus comment short name
+
+# google analytics
+google:
+    tracking-id: "" #your tracking id here
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+permalink: /posts/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
