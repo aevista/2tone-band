@@ -1,4 +1,4 @@
-baseurl: "/2toneband" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+baseurl: "/2tone-band" # The subpath of your site. Use "" if you're hosting a blog at the root level.
 url: "aevista.github.io" # the base hostname & protocol for your site.
 title: "2 Tone Band"
 
